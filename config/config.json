@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "ehub",
+    "password":"menlo@123",
+    "database": "ehub",
+    "host": "ehub.database.windows.net",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "encrypt": true
+    },
+    "database_encrypt": true,
+    "forceSchema": true,
+    "allowDestructiveSync": true,
+    "connectionTimeout":4000000,
+    "requestTimeout":4000000,
+    "idleTimeoutMillis":3500000,
+    "max": 100
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/e04963f7-a337-4b70-83e0-27de826f9f50/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/ehubdeployment",
+    "appService.deploySubpath": ""
+}

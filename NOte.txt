@@ -1,0 +1,10 @@
+Server
+ehub.database.windows.net 
+username: ehub
+pwd: menlo@123
+
+
+Server name: 
+empdetails.database.windows.net 
+username: menlo123
+pwd: menlo@123
